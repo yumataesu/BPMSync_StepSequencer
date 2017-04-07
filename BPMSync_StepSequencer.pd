@@ -6,57 +6,57 @@
 #X obj 35 133 metro;
 #X msg 35 108 1;
 #X floatatom 114 112 5 0 0 0 - - -, f 5;
-#X obj 35 162 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 69 159 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj -31 102 s second;
-#X obj -32 265 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj -12 265 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X obj 8 265 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj -32 265 bng 15 50 10 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 28 265 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj -12 265 bng 15 50 10 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 48 265 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 8 265 bng 15 50 10 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 28 265 bng 15 50 10 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 48 265 bng 15 50 10 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj -10 237 sel 0 1 2 3 4 5 6 7;
 #X obj -10 184 float;
-#X obj 70 201 + 1;
+#X obj 45 208 + 1;
 #X obj -10 211 mod 8;
-#X obj 68 265 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 68 265 bng 15 50 10 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 88 265 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+#X obj 88 265 bng 15 50 10 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
-#X obj 108 265 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
-#X floatatom -110 354 5 0 0 0 - - -, f 5;
-#X floatatom -72 354 5 0 0 0 - - -, f 5;
-#X floatatom -26 355 5 0 0 0 - - -, f 5;
-#X floatatom 18 355 5 0 0 0 - - -, f 5;
-#X floatatom 60 356 5 0 0 0 - - -, f 5;
-#X floatatom 120 355 5 0 0 0 - - -, f 5;
-#X floatatom 168 353 5 0 0 0 - - -, f 5;
-#X floatatom -122 422 5 0 0 0 - - -, f 5;
-#X floatatom 222 354 5 0 0 0 - - -, f 5;
+#X obj 108 265 bng 15 50 10 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X floatatom -121 337 5 0 0 0 - - -, f 5;
+#X floatatom -82 336 5 0 0 0 - - -, f 5;
+#X floatatom -41 337 5 0 0 0 - - -, f 5;
+#X floatatom -1 337 5 0 0 0 - - -, f 5;
+#X floatatom 39 337 5 0 0 0 - - -, f 5;
+#X floatatom 79 337 5 0 0 0 - - -, f 5;
+#X floatatom 120 337 5 0 0 0 - - -, f 5;
+#X floatatom -139 396 5 0 0 0 - - -, f 5;
+#X floatatom 160 336 5 0 0 0 - - -, f 5;
 #X obj 293 107 hradio 50 1 0 8 empty empty Layer01 11 -8 0 15 -191407
 -45076 -1 2;
-#X obj 369 189 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 311 167 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X floatatom 293 198 5 0 0 0 - - -, f 5;
+#X floatatom 293 190 5 0 0 0 - - -, f 5;
 #X floatatom 293 74 5 0 0 0 - - -, f 5;
 #X obj 292 8 float;
-#X obj 372 25 + 1;
+#X obj 352 34 + 1;
 #X obj 292 35 mod 8;
-#X obj -106 449 s average;
-#X floatatom 331 -75 5 0 0 0 - - -, f 5;
-#X obj 234 -81 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
-1;
-#X obj 234 -107 loadbang;
-#X obj 234 -55 metro 400;
+#X obj -139 421 s average;
+#X floatatom 383 -66 5 0 0 0 - - -, f 5;
+#X obj 250 -131 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
+1 1;
+#X obj 250 -177 loadbang;
+#X obj 250 -73 metro 400;
 #X obj -8 -96 spigot 0;
-#X obj 9 -196 bng 30 250 50 0 empty empty Tap 40 10 0 20 -203904 -1
+#X obj 9 -196 bng 30 50 10 0 empty empty Tap 40 10 0 20 -203904 -1
 -1;
-#X floatatom -8 -13 5 0 0 0 - - -, f 5;
+#X floatatom -8 -19 5 0 0 0 - - -, f 5;
 #X obj 7 -71 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 80 -95 spigot 0;
@@ -64,33 +64,35 @@
 -1 -1;
 #X obj 36 -124 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
-#X obj 90 -150 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
-1;
+#X obj 125 -117 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1
+1 1;
 #X obj 52 -151 t b b;
 #X obj 0 -152 t b b;
-#X obj 155 -180 loadbang;
-#X msg 166 -34 0;
-#X obj 317 -103 r average;
+#X obj 104 -161 loadbang;
+#X msg 205 -53 0, f 4;
+#X obj 301 -142 r average;
 #X obj -7 29 expr if($f1 < 2000 \, $f1 \, 2000);
-#X obj -122 385 expr ( $f1 + $f2 + $f3 + $f4 + $f5 + $f6 + $f7 + $f8)
+#X obj -139 366 expr ( $f1 + $f2 + $f3 + $f4 + $f5 + $f6 + $f7 + $f8)
 / 8;
 #X obj -8 -41 realtime;
-#X obj 222 327 timer;
-#X obj 168 328 timer;
-#X obj 109 330 timer;
-#X obj 60 329 timer;
-#X obj 18 330 timer;
-#X obj -26 329 timer;
-#X obj -71 330 timer;
-#X obj -110 304 timer;
-#X obj 9 -221 r bpmsync_tap;
-#X obj 206 -88 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 160 314 timer;
+#X obj 120 314 timer;
+#X obj 79 313 timer;
+#X obj 39 313 timer;
+#X obj -1 314 timer;
+#X obj -41 314 timer;
+#X obj -82 315 timer;
+#X obj -121 315 timer;
+#X obj 9 -234 r bpmsync_tap;
+#X obj 187 -198 bng 30 250 50 0 empty empty empty 17 7 0 10 -26368
 -1 -1;
-#X floatatom 424 14 5 0 0 1 BPM - -, f 5;
-#X msg 332 -42 60000;
-#X obj 393 -17 / 1;
-#X obj 424 40 s BPMfromPd;
-#X obj 293 224 s SeqfromPd;
+#X floatatom 388 13 10 0 0 1 BPM - -, f 10;
+#X msg 312 -47 60000;
+#X obj 340 -15 / 1, f 4;
+#X obj 410 42 s BPMfromPd;
+#X obj 293 214 s SeqfromPd;
+#X obj 187 -120 t b b;
+#X obj 187 -231 r synctiming;
 #X connect 0 0 7 0;
 #X connect 2 0 4 0;
 #X connect 2 1 3 1;
@@ -147,6 +149,7 @@
 #X connect 38 0 40 0;
 #X connect 39 0 38 0;
 #X connect 40 0 33 0;
+#X connect 40 0 68 0;
 #X connect 41 0 44 0;
 #X connect 41 0 56 0;
 #X connect 42 0 49 0;
@@ -154,7 +157,6 @@
 #X connect 43 0 54 0;
 #X connect 45 0 46 0;
 #X connect 45 0 56 1;
-#X connect 46 0 52 0;
 #X connect 47 0 41 1;
 #X connect 48 0 45 1;
 #X connect 49 0 45 0;
@@ -179,7 +181,10 @@
 #X connect 63 0 21 0;
 #X connect 64 0 20 0;
 #X connect 65 0 42 0;
-#X connect 66 0 52 0;
+#X connect 66 0 72 0;
 #X connect 67 0 70 0;
 #X connect 68 0 69 0;
 #X connect 69 0 67 0;
+#X connect 72 0 52 0;
+#X connect 72 1 40 0;
+#X connect 73 0 66 0;
